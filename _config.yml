@@ -80,6 +80,8 @@ theme: yilia
 deploy:
 - type: git
   repo: https://github.com/nanauger/nanauger.github.io.git,master
+
+# yilia主题使用    
 jsonContent:
     meta: false
     pages: false
@@ -98,3 +100,12 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+admin:
+  username: nanauger
+  password_hash: $2a$10$RlmZNuTTC.geHIODfm5rm.skT9F/DC511Cafw0wXa/fqc5WQPZd6u
+  secret: my super secret phrase
+  deployCommand: './hexo-generate.sh' 
+  # expire: 60*1
+
+

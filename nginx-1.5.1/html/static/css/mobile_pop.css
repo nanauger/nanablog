@@ -1,0 +1,101 @@
+.mobile_pop {
+	display: none;
+	position: absolute;
+	left: auto;
+	right: 0;
+	top: 32px;
+	width: 190px;
+	border: 1px solid #cfcfcf;
+	background-color: #fff;
+	border-bottom: 3px solid #60575a;
+	z-index: 9999;
+}
+
+.mobile_on {
+	display: block;
+}
+
+.mobile_pop_item {
+	position: relative;
+	z-index: 5;
+	padding: 15px 0;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.mobile_pop_device_lk {
+	background-image:
+		url(../images/sprite_mobile@1x.png);
+}
+
+.mobile_pop_qrcode {
+	position: absolute;
+	left: 5px;
+	top: 14px;
+	width: 74px;
+	height: 74px;
+	border: 1px solid #CCC;
+	background-color: #F7F7F7;
+}
+
+.mobile_pop_qrcode img {
+	width: 70px;
+	height: 70px;
+	margin: 2px 0 0 2px;
+}
+
+.mobile_pop_info {
+	margin: 0 10px 0 86px;
+	min-height: 70px;
+}
+
+.mobile_pop_tit {
+	font-size: 12px;
+	line-height: 17px;
+	color: #666 !important;
+}
+
+.mobile_pop_tit a {
+	color: #666 !important;
+}
+
+.mobile_pop_value {
+	margin: 3px 0;
+	line-height: 34px;
+	color: #F10214;
+}
+
+.mobile_pop_device {
+	overflow: hidden;
+	height: 25px;
+}
+
+.mobile_pop_device_lk {
+	overflow: hidden;
+	float: left;
+	margin-right: 2px;
+	width: 25px;
+	height: 25px;
+	text-indent: -999px;
+}
+
+.mobile_pop_device_ios {
+	background-position: 0 0;
+}
+
+.mobile_pop_device_and {
+	background-position: 0 -26px;
+}
+
+.mobile_pop_device_pad {
+	background-position: 0 -52px;
+}
+
+@media only screen and ( -webkit-min-device-pixel-ratio:1.5 ) , only screen and
+		( min--moz-device-pixel-ratio:1.5 ) , only screen and (
+		-o-min-device-pixel-ratio:3/2 ) , only screen and (
+	min-device-pixel-ratio:1.5 ) {
+	.mobile_pop_device_lk {
+		background-image: url(../images/sprite_mobile@2x.png);
+		background-size: 25px 77px;
+	}
+}

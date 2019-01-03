@@ -1,0 +1,78 @@
+/* CSS Document */
+.main{ overflow:hidden;zoom:1;margin-bottom:10px}
+.main a:link,.main a:visited{color:#005ea7;}
+.margin_b18{margin-bottom:18px}
+.margin_tb10{margin-top:10px;margin-bottom:10px}
+.margin_b6{margin-bottom:6px}
+.w200{width:350px}
+.conact_side .curso{ cursor:pointer;color:#005ea7;}
+/*圆角*/
+.corner_t{}
+.corner_tl{}
+.corner_tr{}
+.corner_c{}
+.corner_b{}
+.corner_bl{}
+.corner_br{}
+/*left*/
+.left{float:left;width:208px;color:#333;margin-right:10px;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/left-bg.png) left bottom no-repeat;padding-bottom:160px;border:1px solid #ffdfdf;border-top:1px solid #efa7a7;}
+.left a:link,.left a:visited{color:#005ea7}
+/*----------------------------left----------------------------*/
+.left h2{height:48px;overflow:hidden;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/contacttit.png) no-repeat;font:14px/48px "Microsoft Yahei";padding-left:15px;}
+.conact_side,.jd_photo{}
+.borderlr{height:20px}
+.conact_side{padding-top:10px;}
+.jd_photo{ overflow:hidden}
+.conact_side li{margin-left:auto;margin-right:auto;padding-left:7px;width:181px;height:32px;border-bottom:1px dotted #ffdfdf;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/lispot.gif) no-repeat 0 15px;line-height:32px}
+.jd_photo li{ padding-left:52px;height:26px;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/line.jpg) repeat-y 35px -13px;line-height:26px; overflow:hidden}
+.jd_photo .jd_photo_last{ background-repeat:no-repeat}
+/*right*/
+.right{width:auto;color:#000;line-height:22px; overflow:hidden;float:none;_float:right;}
+.right img{display:block;}
+/*----------------------------right----------------------------*/
+.right a{color:#03c}
+.right p{text-indent:2em}
+.content{padding:30px 18px;min-height:358px;_height:358px;border:1px solid #dddddd;color:#333;}
+.content a{color:#333}
+.content .tit{margin-bottom:30px;font-size:20px;height:20px;line-height:20px;font-family:"Microsoft Yahei"; text-align:center;padding-bottom:20px;border-bottom:1px solid #ebebeb;}
+.content h3{margin:20px 0 5px 0;}
+.img_box img{margin:10px auto}
+/*核心企业文化*/
+.corporate_culture{font-weight:700;line-height:35px}
+.corporate_culture_worth{padding-left:50px;margin-top:10px}
+/*合作伙伴*/
+.partners{ list-style:disc;margin-left:10px;padding-left:30px}
+/*大事记*/
+.memorabilia dd{margin-bottom:25px}
+/*招聘*/
+.hir dt{font-weight:700;font-size:14px;margin-bottom:10px}
+.jp{color:red;margin-left:5px}
+.hir dd{margin-bottom:30px;padding-left:5px}
+/*媒体报道*/
+.media_interview li{float:left;height:87px; background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/mt_03.gif) repeat-x;width:30%;margin-right:7px;margin-left:8px;border:1px solid #e6e6e6;margin-bottom:15px; overflow:hidden;verflow:hidden}
+.media_img{border-bottom:1px solid #e6e6e6;height:43px;margin-left:4px;margin-right:4px;padding-top:5px;padding-left:7px}
+.media_link{margin-left:5px;margin-right:5px;height:33px; overflow:hidden;line-height:120%;padding-top:5px}
+.media h4{clear:both;height:30px;margin-bottom:20px;padding-left:10px;border-bottom:1px solid #333;line-height:30px}
+.media h5{clear:both;margin-top:10px;padding-left:18px;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/mt_03.gif) no-repeat 0 -87px}
+.media ul{clear:both;}
+.media_list{padding-left:13px;color:#565656}
+/*媒体专访*/
+.media_interview_article .logo_tit{padding-left:15px;padding-bottom:10px;border-bottom:1px solid #333;}
+.media_interview_article h1{padding-top:20px;padding-bottom:10px;font-size:16px; text-align:center;letter-spacing:1px}
+.media_interview_article blockquote{text-align:center;margin-bottom:10px}
+.media_interview_article .img_box h5{margin-bottom:10px;font-weight:400;text-align:center;}
+.media_interview_article p{margin-bottom:10px}
+.media_video{ margin-bottom:10px;padding-left:35px;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/about_video.gif) no-repeat 10px 50%}
+.media_title{height:30px;font-weight:700;line-height:30px;font-size:13px}
+/*京东照片*/
+.jd_phtoto_box li img{margin-left:auto;margin-right:auto}
+/*.dis_none{ display:none}
+#menu_list .dis_none{ display:block}*/
+.jobcam_tit{float:right;font-size:12px;font-weight:normal;}
+/*p_box*/
+.p_box li{width:680px;margin:0 auto 15px;background:url(//static.360buyimg.com/webstatic/about/1.0.0/images/jd_photo.gif) no-repeat 0 bottom;padding-bottom:14px}
+.p_box li div{border:solid #eaeaec;border-right-color:#b5b5b5;border-width:2px 2px 0 1px;padding:10px 0 0;text-align:center;}
+.p_box li div img{display:inline}
+.p_box li h4{font-size:14px;height:40px;line-height:40px;color:#363636}
+
+#Position a{font:20px "Microsoft Yahei";color:#333;margin:0 5px;}

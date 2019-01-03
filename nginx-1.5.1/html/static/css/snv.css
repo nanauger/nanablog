@@ -1,0 +1,138 @@
+header,
+.content,
+.content img,
+footer {
+	max-width: 1240px;
+	min-width: 755px;
+	margin: 0 auto;
+}
+
+a,
+a:focus,
+a:hover,
+a:active {
+	outline: none;
+	text-decoration: none;
+	background: transparent;
+}
+
+.logo {
+	width: 100%;
+	padding: 0 10px;
+	margin-top: 15px;
+	height: 60px;
+}
+
+.logo>div {
+	height: 60px;
+}
+
+.logo a {
+	border-right: solid 1px #D8D8D8;
+	text-decoration: none;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.logo-img {
+	width: 60%;
+	margin-right: 2%;
+	float: left;
+	overflow: hidden;
+}
+
+.logo-img>img {
+	width: 60px;
+}
+
+.pull-right {
+	margin-right: 1%;
+	float: right;
+}
+
+.menu {
+	background-color: #ff6c17;
+	padding: 8px;
+	font-size: 0.9em;
+	color: #FFFFFF;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	list-style-type: none;
+	display: inline;
+	padding: 0 30px;
+	line-height: 1.5em;
+	border-right: solid 1px #D8D8D8;
+}
+
+.menu li a {
+	color: #FFFFFF;
+}
+
+li:last-child,
+a:last-child {
+	border: none;
+}
+
+.carsousel {
+	margin-top: 4px;
+	width: 80%;
+	float: left;
+}
+
+.carsousel img {
+	width: 100%;
+}
+
+.service {
+	width: 19%;
+	float: right;
+	margin-top: 4px;
+}
+
+.service table {
+	border-collapse: collapse;
+	float: right;
+}
+
+.service .cell {
+	width: 60px;
+	height: 75px;
+	;
+	border: solid 1px #D8D8D8;
+	text-align: center;
+}
+
+.service .column:last-child {
+	border-bottom: solid 1px #FFFFFF;
+}
+
+.row {
+	width: 100%;
+	margin: 5px auto;
+	font: arial;
+	text-align: center;
+}
+
+.row a,
+.row span {
+	margin: 0 auto;
+}
+
+.row a {
+	color: #000000;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	margin-top: 40px;
+}
